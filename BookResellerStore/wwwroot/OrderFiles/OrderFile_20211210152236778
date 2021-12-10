@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfExportedOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ExportedOrder>
+    <IsbnCode>1112223330</IsbnCode>
+    <StoreId>d4ef9533-5ba5-4dab-accc-98dfe7d0d88e</StoreId>
+    <ContactEmail>bookstoreA_111@gmail.com</ContactEmail>
+  </ExportedOrder>
+</ArrayOfExportedOrder>

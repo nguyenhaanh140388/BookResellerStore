@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<bookstore name="A" contactemail="bookstoreA_111@gmail.com">
+		<book>
+			<isbncode>1112223330</isbncode>
+			<title lang="en">Everyday Italian</title>
+			<author>Giada De Laurentiis</author>
+			<price>30.00</price>
+		</book>
+		<book>
+			<isbncode>1112223330</isbncode>
+			<title lang="en">Harry Potter</title>
+			<author>J K. Rowling</author>
+			<price>29.99</price>
+		</book>
+		<book>
+			<isbncode>1112223330</isbncode>
+			<title lang="en">XQuery Kick Start</title>
+			<author>James McGovern</author>
+			<price>49.99</price>
+		</book>
+		<book>
+			<isbncode>1112223330</isbncode>
+			<title lang="en">Learning XML</title>
+			<author>Erik T. Ray</author>
+			<price>39.95</price>
+		</book>
+	<book>
+		<isbncode>1112223330</isbncode>
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<price>30.00</price>
+	</book>
+	<book>
+		<isbncode>1112223330</isbncode>
+		<title lang="en">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<price>29.99</price>
+	</book>
+	<book>
+		<isbncode>1112223330</isbncode>
+		<title lang="en">XQuery Kick Start</title>
+		<author>James McGovern</author>
+		<price>49.99</price>
+	</book>
+	<book>
+		<isbncode>1112223330</isbncode>
+		<title lang="en">Learning XML</title>
+		<author>Erik T. Ray</author>
+		<price>39.95</price>
+	</book>
+	<book>
+		<isbncode>1112223330</isbncode>
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<price>30.00</price>
+	</book>
+	<book>
+		<isbncode>1112223330</isbncode>
+		<title lang="en">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<price>29.99</price>
+	</book>
+	<book>
+		<isbncode>1112223330</isbncode>
+		<title lang="en">XQuery Kick Start</title>
+		<author>James McGovern</author>
+		<price>49.99</price>
+	</book>
+	<book>
+		<isbncode>1112223330</isbncode>
+		<title lang="en">Learning XML</title>
+		<author>Erik T. Ray</author>
+		<price>39.95</price>
+	</book>
+</bookstore>

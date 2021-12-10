@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<bookstore name="B" contactemail="bookstoreB_111@gmail.com">
+		<book>
+			<isbncode>1112223334</isbncode>
+			<author>Thurman, Paula</author>
+			<title>Splish Splash</title>
+			<price>12.95</price>
+		</book>
+		<book>
+			<isbncode>1112223335</isbncode>
+			<author>Knorr, Stefan</author>
+			<title>Creepy Crawlies</title>
+			<price>4.95</price>
+		</book>
+		<book>
+			<isbncode>1112223336</isbncode>
+			<author>Kress, Peter</author>
+			<title>Paradox Lost</title>
+			<price>6.95</price>
+		</book>
+		<book>
+			<isbncode>1112223337</isbncode>
+			<author>O'Brien, Tim</author>
+			<title>Microsoft .NET: The Programming Bible</title>
+			<price>36.95</price>
+		</book>
+</bookstore>

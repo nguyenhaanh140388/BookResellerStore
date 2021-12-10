@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BookResellerStore</title>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            Utils.refeshOrderNotification();
+            $(".fa-shopping-cart").click(function (e) {
+                e.preventDefault();
+                bookModule.getOrder();
+            })
+        });
+    </script>
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">BookResellerStore</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Store" asp-action="Index">Store</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                </ul>
+                <p class="nav navbar-text navbar-right">
+                    Hello, @User.Identity.Name!  <i class="fa fa-shopping-cart" aria-hidden="true">
+                        <span class="badge"></span>
+                    </i>
+                </p>
+            </div>
+        </div>
+    </nav>
+
+    <partial name="_CookieConsentPartial" />
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2021 - BookResellerStore</p>
+        </footer>
+    </div>
+    <style>
+        #loading {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(192, 192, 192, 0.5);
+            background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .badge {
+            top: 10px;
+            right: 100px;
+            /* padding: 5px 10px;*/
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+        }
+
+        .fa-shopping-cart:hover {
+            cursor: pointer;
+            color:blue;
+        }
+    </style>
+
+    <div id="loading" style="display: none; z-index: 99999999 !important"></div>
+    <div id="dialog-message" title="" style="display: none; z-index: 99999999 !important">
+        <p id="message" />
+    </div>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="~/js/application/Utils.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
