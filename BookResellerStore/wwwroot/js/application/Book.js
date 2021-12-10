@@ -90,6 +90,7 @@ var bookModule = (function () {
 
                 Dom.gridView.empty();
                 Dom.orderView.empty();
+                Dom.detailView.empty();
                 $.each(result, function (index, value) {
                     Dom.gridView
                         .append($('<div>')
