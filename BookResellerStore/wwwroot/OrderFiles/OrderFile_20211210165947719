@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfExportedOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ExportedOrder>
+    <IsbnCode>1112223349</IsbnCode>
+    <StoreId>225dda7e-b15a-4ee1-8e09-3a89bddd1099</StoreId>
+    <ContactEmail>bookstoreA_111@gmail.com</ContactEmail>
+  </ExportedOrder>
+  <ExportedOrder>
+    <IsbnCode>1112223350</IsbnCode>
+    <StoreId>225dda7e-b15a-4ee1-8e09-3a89bddd1099</StoreId>
+    <ContactEmail>bookstoreA_111@gmail.com</ContactEmail>
+  </ExportedOrder>
+  <ExportedOrder>
+    <IsbnCode>1112223351</IsbnCode>
+    <StoreId>225dda7e-b15a-4ee1-8e09-3a89bddd1099</StoreId>
+    <ContactEmail>bookstoreA_111@gmail.com</ContactEmail>
+  </ExportedOrder>
+  <ExportedOrder>
+    <IsbnCode>1112223346</IsbnCode>
+    <StoreId>225dda7e-b15a-4ee1-8e09-3a89bddd1099</StoreId>
+    <ContactEmail>bookstoreA_111@gmail.com</ContactEmail>
+  </ExportedOrder>
+</ArrayOfExportedOrder>

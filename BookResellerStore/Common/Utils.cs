@@ -1,8 +1,8 @@
 ﻿using System.IO;
+using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Xml.Serialization;
-using System.Linq;
 using static BookResellerStore.Common.Constants;
 
 namespace BookResellerStore.Common

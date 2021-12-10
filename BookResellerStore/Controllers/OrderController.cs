@@ -1,14 +1,9 @@
 ﻿using BookResellerStore.Auth;
-using BookResellerStore.Common;
 using BookResellerStore.DTOs;
 using BookResellerStore.Interfaces;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Threading.Tasks;
 using System.Linq;
+using System.Threading.Tasks;
 using static BookResellerStore.Common.Constants;
 
 namespace BookResellerStore.Controllers
@@ -16,6 +11,11 @@ namespace BookResellerStore.Controllers
     public class OrderController : Controller
     {
         private readonly IOrderRepositoty orderRepositoty;
+
+        public OrderController(IOrderRepositoty orderRepositoty)
+        {
+            this.orderRepositoty = orderRepositoty;
+        }
 
         [Permission(RightName.ViewOrder)]
         public async Task<IActionResult> Index()
@@ -29,12 +29,6 @@ namespace BookResellerStore.Controllers
             var result = await orderRepositoty.GetOrders();
 
             return this.Ok(result.Count());
-        }
-
-        public OrderController(IOrderRepositoty orderRepositoty)
-        {
-            this.orderRepositoty = orderRepositoty;
-
         }
 
         [Permission(RightName.CreateOrder)]

@@ -1,75 +1,75 @@
 ﻿<?xml version="1.0"?>
 <bookstore name="A" contactemail="bookstoreA_111@gmail.com">
-		<book>
-			<isbncode>1112223330</isbncode>
-			<title lang="en">Everyday Italian</title>
-			<author>Giada De Laurentiis</author>
-			<price>30.00</price>
-		</book>
-		<book>
-			<isbncode>1112223330</isbncode>
-			<title lang="en">Harry Potter</title>
-			<author>J K. Rowling</author>
-			<price>29.99</price>
-		</book>
-		<book>
-			<isbncode>1112223330</isbncode>
-			<title lang="en">XQuery Kick Start</title>
-			<author>James McGovern</author>
-			<price>49.99</price>
-		</book>
-		<book>
-			<isbncode>1112223330</isbncode>
-			<title lang="en">Learning XML</title>
-			<author>Erik T. Ray</author>
-			<price>39.95</price>
-		</book>
 	<book>
-		<isbncode>1112223330</isbncode>
+		<isbncode>1112223340</isbncode>
 		<title lang="en">Everyday Italian</title>
 		<author>Giada De Laurentiis</author>
 		<price>30.00</price>
 	</book>
 	<book>
-		<isbncode>1112223330</isbncode>
+		<isbncode>1112223341</isbncode>
 		<title lang="en">Harry Potter</title>
 		<author>J K. Rowling</author>
 		<price>29.99</price>
 	</book>
 	<book>
-		<isbncode>1112223330</isbncode>
+		<isbncode>1112223342</isbncode>
 		<title lang="en">XQuery Kick Start</title>
 		<author>James McGovern</author>
 		<price>49.99</price>
 	</book>
 	<book>
-		<isbncode>1112223330</isbncode>
+		<isbncode>1112223343</isbncode>
 		<title lang="en">Learning XML</title>
 		<author>Erik T. Ray</author>
 		<price>39.95</price>
 	</book>
 	<book>
-		<isbncode>1112223330</isbncode>
+		<isbncode>1112223344</isbncode>
 		<title lang="en">Everyday Italian</title>
 		<author>Giada De Laurentiis</author>
 		<price>30.00</price>
 	</book>
 	<book>
-		<isbncode>1112223330</isbncode>
-		<title lang="en">Harry Potter</title>
-		<author>J K. Rowling</author>
+		<isbncode>1112223345</isbncode>
+		<title lang="en">Fear of Flying</title>
+		<author>Erica Jong</author>
 		<price>29.99</price>
 	</book>
 	<book>
-		<isbncode>1112223330</isbncode>
-		<title lang="en">XQuery Kick Start</title>
-		<author>James McGovern</author>
+		<isbncode>1112223346</isbncode>
+		<title lang="en">Encyclopedia Brown, Boy Detective</title>
+		<author>Donald J. Sobol</author>
 		<price>49.99</price>
 	</book>
 	<book>
-		<isbncode>1112223330</isbncode>
+		<isbncode>1112223347</isbncode>
 		<title lang="en">Learning XML</title>
 		<author>Erik T. Ray</author>
+		<price>39.95</price>
+	</book>
+	<book>
+		<isbncode>1112223348</isbncode>
+		<title lang="en">When Breath Becomes Air</title>
+		<author>Paul Kalanithi</author>
+		<price>30.00</price>
+	</book>
+	<book>
+		<isbncode>1112223349</isbncode>
+		<title lang="en">The Adventures of Tom Sawyer</title>
+		<author>Mark Twain</author>
+		<price>29.99</price>
+	</book>
+	<book>
+		<isbncode>1112223350</isbncode>
+		<title lang="en">In the Heart of the Sea</title>
+		<author>Nathaniel Philbrick</author>
+		<price>49.99</price>
+	</book>
+	<book>
+		<isbncode>1112223351</isbncode>
+		<title lang="en">Little Women</title>
+		<author>Louisa May Alcott</author>
 		<price>39.95</price>
 	</book>
 </bookstore>
