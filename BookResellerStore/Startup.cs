@@ -43,11 +43,6 @@ namespace BookResellerStore
 
             // Load Data.
             GlobalConfiguration.InitData(Path.Combine(this.hostingEnvironment.ContentRootPath, "Xml"));
-
-            services.AddAuthorization(options =>
-            {
-                options.AddPolicy("EmployeeOnly", policy => policy.RequireClaim("EmployeeNumber"));
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

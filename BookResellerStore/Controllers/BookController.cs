@@ -1,5 +1,4 @@
-﻿using BookResellerStore.Auth;
-using BookResellerStore.Interfaces;
+﻿using BookResellerStore.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
